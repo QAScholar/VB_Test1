@@ -4,7 +4,7 @@ import java.util.Scanner;
  * Created by user on 28.10.2017.
  * Задача 2.	С клавиатуры вводится двузначное натуральное число. Вывести на экран количество десятков в нем.
  */
-public class Program2 {
+public class Program02 {
     public static void main(String[] args) {
 
         Scanner a=new Scanner(System.in);

@@ -2,7 +2,7 @@ package ru.vb.Program1;
 import java.util.Scanner;
 
 //* Задача 9.	Написать программу, которая переводит километры в сухопутные и морские мили
-public class Program9 {
+public class Program09 {
     public static void main(String[] args) {
 
         System.out.print("Введите величину километров= ");
