@@ -21,7 +21,7 @@ public class Program07 {
         System.out.println("Площадь окружности= "+ S);
 
         //Считаем длину окружности
-        double L=Pi*(2*x);
+        double L=Pi*2*x;
         System.out.println("Длина окружности= "+ L);
     }
 }
