@@ -12,6 +12,9 @@ public class MainApp {
         rectangle1.area();
         rectangle1.square();
 
+        Rectangle rectangle2=new Rectangle(4,8);
+
+
         //Разграничиваем результаты
         System.out.println();
 
@@ -20,5 +23,15 @@ public class MainApp {
         circle1.r=5;
         circle1.draw();
         circle1.square();
+
+        //Разграничиваем результаты
+        System.out.println();
+
+        //Рисуем треугольник
+        Triangle triangle1=new Triangle();
+        triangle1.a=3;
+        triangle1.b=5;
+        triangle1.draw();
+        triangle1.square();
     }
 }
