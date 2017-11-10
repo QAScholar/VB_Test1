@@ -16,12 +16,17 @@ public class Shape {
         super.draw();
         System.out.println("Draw Rectangle with sides: "+ a+" and "+b);
 }
-    void area(){ int area1=2*a+2*b;
+
+       void area(){ int area1=2*a+2*b;
     System.out.println("Rectangle's area= "+area1);}
 
     void square(){int square1=a*b;
         System.out.println("Rectangle's square= "+ square1);}}
 
+       public Rectangle(int a, int b) {
+           this.a = a;
+           this.b = b;
+       }}
 class Circle extends Shape {
     int r;
     void draw(){
@@ -32,25 +37,15 @@ class Circle extends Shape {
     }
 }
 
-
-
-    /*public Rectangle (){};
-
-    public Rectangle (int a, int b){};
-
-    public Rectangle (int a, int b, int x, int y){};
-
-    public int square(){
-        return (this.a*this.b);
+class Triangle extends Shape{
+    int a,b;
+    void draw(){
+        System.out.println("Draw rightangled Triangle with sides= "+ a+" and "+b);
     }
-    int area(){
-        return (2*this.a+2*this.b);
-    }
-    String getColor(){
-        return color;
-    }
-        void getColor(String color){
-        this.color=color;*/
+    void square(){
+            System.out.println("Triangle's square= "+ (a*b/2));}
+}
+
 
 
 
